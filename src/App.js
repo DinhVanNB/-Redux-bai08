@@ -5,13 +5,7 @@ import Header from './components/Header';
 import Add from './components/Add';
 
 function App() {
-  const reactionEmoji = {
-    thumbsUp: '👍',
-    wow: '😮',
-    heart: '❤️',
-    rocket: '🚀',
-    coffee: '☕'
-}
+ 
   return (
     <div className="App">
       <HashRouter>
