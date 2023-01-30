@@ -26,6 +26,7 @@ export default function Home(){
     const xuLyTime =(timePost)=>{
         let checkTime = (Date.parse(Date().toLocaleString())-
         Date.parse(timePost.substring(0,19)))/60000;
+        console.log(checkTime)
         if(checkTime>1440){
             return timePost.substring(0,10)
         }
@@ -33,7 +34,7 @@ export default function Home(){
             return (`${parseInt(checkTime/60)} hours ago`)
         }
         else if(checkTime>2) {
-            return (`${parseInt(checkTime/60)} minute ago`)
+            return (`${parseInt(checkTime)} minute ago`)
         }  
         else  {
             return (`vừa mới`)
