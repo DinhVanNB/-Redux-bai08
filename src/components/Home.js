@@ -25,15 +25,15 @@ export default function Home(){
 
     const xuLyTime =(timePost)=>{
         let checkTime = (Date.parse(Date().toLocaleString())-
-        Date.parse(timePost.substring(0,19)))/3600000;
-        if(checkTime>24){
+        Date.parse(timePost.substring(0,19)))/60000;
+        if(checkTime>1440){
             return timePost.substring(0,10)
         }
-        else if(checkTime>1){
-            return (`${parseInt(checkTime)} hours ago`)
+        else if(checkTime>60){
+            return (`${parseInt(checkTime/60)} hours ago`)
         }
-        else if(checkTime>0.03) {
-            return (`${parseInt(checkTime*100-2)} minute ago`)
+        else if(checkTime>2) {
+            return (`${parseInt(checkTime/60)} minute ago`)
         }  
         else  {
             return (`vừa mới`)
