@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dinhvannb.github.io/Redux-bai08/static/css/main.44f8b8b5.css",
+    "main.js": "/dinhvannb.github.io/Redux-bai08/static/js/main.fc679a6f.js",
+    "static/js/787.46fa5b82.chunk.js": "/dinhvannb.github.io/Redux-bai08/static/js/787.46fa5b82.chunk.js",
+    "index.html": "/dinhvannb.github.io/Redux-bai08/index.html",
+    "main.44f8b8b5.css.map": "/dinhvannb.github.io/Redux-bai08/static/css/main.44f8b8b5.css.map",
+    "main.fc679a6f.js.map": "/dinhvannb.github.io/Redux-bai08/static/js/main.fc679a6f.js.map",
+    "787.46fa5b82.chunk.js.map": "/dinhvannb.github.io/Redux-bai08/static/js/787.46fa5b82.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44f8b8b5.css",
+    "static/js/main.fc679a6f.js"
+  ]
+}
