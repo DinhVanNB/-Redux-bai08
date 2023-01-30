@@ -1,5 +1,4 @@
 import {useDispatch, useSelector} from 'react-redux';
-import {useState} from 'react';
 import {useNavigate} from 'react-router-dom';
 import * as types from '../actions/action'; 
 
@@ -7,7 +6,6 @@ export default function Home(){
     const navigate = useNavigate();
     const dispatch = useDispatch();
     const {posts,interact} =useSelector(state=>state);
-    const [increaInteract, setIncreaseInteract] = useState({});
     if(posts.length>0){
         posts.sort((a,b)=>
         Date.parse((a.timeUpload).substring(0,19))>

@@ -1,6 +1,6 @@
 import {useNavigate} from 'react-router-dom';
 import {useEffect} from 'react';
-import {useDispatch, useSelector} from 'react-redux';
+import {useDispatch} from 'react-redux';
 import * as types from '../actions/action';
 
 export default function Header (){
